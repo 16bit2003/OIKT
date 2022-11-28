@@ -1,22 +1,19 @@
 #!/bin/bash
 
-sudo loadkeys si
-wait
-
-mkdir /home/documents
-mkdir /home/downloads
-mkdir /home/pictures
-mkdir /home/videos
+sudo mkdir /home/documents
+sudo mkdir /home/downloads
+sudo mkdir /home/pictures
+sudo mkdir /home/videos
 
 for i in {1 2 3 4 5}
 do
-    mkdir /folder%i
+    mkdir /folder$i
 done
 wait
 for i in {1 2 3 4 5}
 do
-    sudo adduser User%i
-    usermod -aG sudo User%i
+    sudo adduser User$i
+    usermod -aG sudo User$i
 done
 wait
 sudo apt-get update
