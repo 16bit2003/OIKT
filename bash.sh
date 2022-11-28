@@ -1,5 +1,6 @@
 #!/bin/bash
-udo loadkeys si
+
+sudo loadkeys si
  
 mkdir /home/documents
 mkdir /home/downloads
@@ -45,3 +46,6 @@ sudo apt-get update
 
 sudo apt-get install docker-compose-plugin
 
+=======
+echo "hello"
+>>>>>>> 96ee0e12d132b81257c2b56e32f306bc33a97157
