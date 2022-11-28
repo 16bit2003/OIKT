@@ -1,5 +1,5 @@
 sudo loadkeys si
-
+sdgsd 
 mkdir /home/documents
 mkdir /home/downloads
 mkdir /home/pictures
