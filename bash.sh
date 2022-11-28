@@ -5,12 +5,12 @@ mkdir /home/downloads
 mkdir /home/pictures
 mkdir /home/videos
 
-for i in {1..5}
+for i in {1 2 3 4 5}
 do
     mkdir /folder%i
 done
 
-for i in {1..5}
+for i in {1 2 3 4 5}
 do
     sudo adduser User%i
     usermod -aG sudo User%i
