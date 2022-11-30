@@ -11,8 +11,3 @@ do
     wait
     usermod -aG sudo User$i
 done
-wait
-sudo apt-get update
-wait
-sudo apt-get upgrade
-wait
