@@ -1,11 +1,11 @@
 #!/bin/bash
 
-for i in {1 2 3 4 5}
+for i in {1..5..1}
 do
     sudo mkdir /folder$i
 done
 wait
-for i in {1 2 3 4 5}
+for i in {1..5..1}
 do
     sudo adduser User$i
     wait
