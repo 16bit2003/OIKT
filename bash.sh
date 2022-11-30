@@ -1,9 +1,9 @@
 #!/bin/bash
 
-sudo mkdir /home/documents
-sudo mkdir /home/downloads
-sudo mkdir /home/pictures
-sudo mkdir /home/videos
+sudo mkdir /documents
+sudo mkdir /downloads
+sudo mkdir /pictures
+sudo mkdir /videos
 
 for i in {1 2 3 4 5}
 do
