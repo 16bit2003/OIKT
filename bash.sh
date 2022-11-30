@@ -9,5 +9,5 @@ for i in {ena dva tri štiri pet}
 do
     sudo adduser user$i 
     wait
-    usermod -aG sudo User$i
+    usermod -aG sudo user$i
 done
