@@ -6,7 +6,7 @@ do
     sudo mkdir /folder$i
 done
 wait
-for i in ena dva tri štiri pet
+for i in ena dva tri stiri pet
 do
     sudo adduser user$i 
     wait
