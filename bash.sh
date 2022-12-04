@@ -1,7 +1,7 @@
 #!/bin/bash
 mkdir -p Struktura/{Desktop,Documents,Downloads,Pictures,Videos}
 
-for i in {1..5..1}
+for i in {1..5}
 do
     sudo mkdir /folder$i
 done
