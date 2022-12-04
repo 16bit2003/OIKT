@@ -10,7 +10,7 @@ for i in ena dva tri štiri pet
 do
     sudo adduser user$i 
     wait
-    usermod -aG sudo user$i
+    sudo usermod -aG sudo user$i
 done
 wait
 sudo apt-get update
